@@ -6,7 +6,7 @@ import logging
 import operator
 from caesar import caesar
 
-updater = Updater(token='391696914:AAECRPFaf20X7N8qtyCJ0gwAC-7_o1SesgE')
+updater = Updater(token='TOKEN')
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
